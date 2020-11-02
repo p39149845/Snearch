@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body, #root, .App-maincontainer,.left-container,.right-container {
+  height: 100%;
+  background-color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.App-maincontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-container{
+  width: 18%;
+  background-color: #282c34;
+  color: white;
+  display:flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+
+.leftlink{
+  height: 100%;
+  border: #5F6166 solid 1px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-header{
+  display:flex;
+  width: 100%;
+  height: 10%;
+  font-size: 17px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.left-content-container{
+  display: flex;
+  width: 90%;
+  padding-left: 5%;
+  margin-bottom: 4%;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  border-radius: 10px;
+}
+
+.right-container{
+  width: 100%;
+  margin-left: 15%;
+  padding-left:5% ;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right-header{
+  display:flex;
+  width: 100%;
+  height: 10%;
+  font-size: 25px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: darkorange;  
+}
+
+.right-content-container{
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 10px;
+  margin-bottom: 4%;
+  flex-direction:row;
+  justify-content:flex-start;
+}
+
+.Chat_popup {
+  position: fixed;
+  margin-top: 90vh;
+  margin-left: 75%;
+  background-color: darkorange;
+  color: aliceblue;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.Chat_screen {
+  position: fixed;
+  margin-top: 10vh;
+  margin-left: 60%;
+  
+}
+
+
+
+
